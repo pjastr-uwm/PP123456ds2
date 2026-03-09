@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main() {
+    // to zadanie trzecie a nie 5_2
     int x = 7;    // x =7 , y = , z =
     int y = 3;    // x =7 , y =3 , z =
     int z = 12;   // x =7 , y =3 , z =12
