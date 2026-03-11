@@ -5,7 +5,7 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    int suma = 0;
+    int suma=0;
     int i=1;
     while(i<=n){
         suma += i;
