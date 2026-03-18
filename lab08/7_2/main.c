@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int calculateAbsoluteValue(int a){
+float calculateAbsoluteValue(float a){
     if (a>0)
         return a;
     return -a;
@@ -9,8 +9,8 @@ int calculateAbsoluteValue(int a){
 
 int main()
 {
-    printf("%d\n", calculateAbsoluteValue(5));
-    printf("%d\n", calculateAbsoluteValue(-12));
-    printf("%d\n", calculateAbsoluteValue(0));
+    printf("%f\n", calculateAbsoluteValue(5));
+    printf("%f\n", calculateAbsoluteValue(-12));
+    printf("%f\n", calculateAbsoluteValue(0));
     return 0;
 }
