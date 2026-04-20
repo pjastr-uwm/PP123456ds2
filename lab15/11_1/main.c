@@ -56,6 +56,6 @@ int main()
     printf("%d\n", length3("Olsztyn"));
     printf("%d\n", length4("Olsztyn"));
     printf("%d\n", length5("Olsztyn"));
-    printf("%d\n", length6(""));
+    printf("%d\n", length6("Olsztyn"));
     return 0;
 }

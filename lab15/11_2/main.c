@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int countNums(char txt[]){
+    int counter =0;
+    for(int i=0;txt[i] !=0;i++){
+        if ('0' <= txt[i] && txt[i] <= '9'){
+            counter++;
+        }
+    }
+    return counter;
+}
+
+int countNums2(char txt[]){
+    int counter =0;
+    for(int i=0;txt[i] !=0;i++){
+        if (48 <= txt[i] && txt[i] <= 57){
+            counter++;
+        }
+    }
+    return counter;
+}
+
+int main()
+{
+    char txt[] = "abc234";
+    printf("%d\n", countNums(txt));
+    printf("%d\n", countNums2(txt));
+    printf("%d\n", (int)'0');
+    return 0;
+}
