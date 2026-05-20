@@ -38,5 +38,6 @@ int main()
 {
     enum Day d1 = WED;
     print_days(d1,10);
+    printf("%zu\n", sizeof(enum Day));
     return 0;
 }
